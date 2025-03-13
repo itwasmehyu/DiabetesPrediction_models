@@ -10,4 +10,8 @@ Accuracy Improvement: Optimized model architecture to achieve higher prediction 
 
 ![image](https://github.com/user-attachments/assets/aac8e5d7-9c35-41e9-b115-8381cee54c90)
 
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss the proposed changes.
 
+Acknowledgments
+Dataset source: https://www.kaggle.com/uciml/pima-indians-diabetes-database.
