@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Diabetes Prediction Form</h2>
+        <form id="predictionForm">
+            <label>Select Model:</label>
+            <select name="model" required>
+                <option value="deep_learning">Deep Learning</option>
+                <option value="knn">kNN</option>
+                <option value="svm_linear">SVM Linear</option>
+                <option value="svm_rbf">SVM RBF</option>
+                <option value="logistic_regression">Logistic Regression</option>
+            </select><br>
+            <input type="number" name="Pregnancies" placeholder="Pregnancies" required><br>
+            <input type="number" name="Glucose" placeholder="Glucose" required><br>
+            <input type="number" name="BloodPressure" placeholder="Blood Pressure" required><br>
+            <input type="number" name="SkinThickness" placeholder="Skin Thickness" required><br>
+            <input type="number" name="Insulin" placeholder="Insulin" required><br>
+            <input type="number" name="BMI" placeholder="BMI" step="0.1" required><br>
+            <input type="number" name="DiabetesPedigreeFunction" placeholder="Diabetes Pedigree Function" step="0.01" required><br>
+            <input type="number" name="Age" placeholder="Age" required><br>
+            <button type="submit">Predict</button>
+        </form>
+        <h3 id="result">Prediction: </h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
